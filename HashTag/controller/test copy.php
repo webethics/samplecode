@@ -576,6 +576,13 @@ function send_email($to='',$subject='',$message='',$from='',$fromname=''){
 		} catch (Exception $e) {
 		dd($e);
 		}
+		echo "My name is Harsh";
          return false ;
-   }
+	 }
+	 
+public function harsh(Type $var = null)
+{
+	echo "My name is Harsh";
+}
+
 }
