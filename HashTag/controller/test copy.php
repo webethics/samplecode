@@ -577,5 +577,10 @@ function send_email($to='',$subject='',$message='',$from='',$fromname=''){
 		dd($e);
 		}
          return false ;
-   }
+	 }
+	 
+	 function testFunction(){
+
+		echo 'test';
+	 }
 }
