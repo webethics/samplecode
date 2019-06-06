@@ -17,7 +17,7 @@ use Image;
 use URL;
 use View;
 class ArticleController extends Controller
-{
+{ 
 
   /*********  load More by ajax **************/
 	public function loadMoreArticle($page){
