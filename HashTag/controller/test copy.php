@@ -579,5 +579,10 @@ function send_email($to='',$subject='',$message='',$from='',$fromname=''){
          return false ;
 	 }
 
+	 public function FunctionName(Type $var = null)
+	 {
+			echo "It looks good";
+	 }
+
 
 }
